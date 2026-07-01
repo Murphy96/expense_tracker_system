@@ -13,8 +13,8 @@ This section creates a global lists to simulate a connection to a database.
 This section contains 4 functions: 
       
 - **add_expense(amount, category, description)**
-      - Validates that the amount is greater than 0, raises a ValueError if the amount is invalid,
-        creates a dictionary for the expense, appends it to the expenses list, returns the created expense.  
+     - Validates that the amount is greater than 0, raises a ValueError if the amount is invalid,
+       creates a dictionary for the expense, appends it to the expenses list, returns the created expense.  
 
  - **calculate_total_expenses()**
       - Loops through all expenses, calculates the total amount of the expenses, returns the total.    
